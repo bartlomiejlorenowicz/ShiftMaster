@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+main {
+    flex-grow: 1; /* Główna zawartość rozciąga się, aby wypełnić dostępną przestrzeń */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Tło głównej zawartości */
+    overflow-y: auto; /* Dodaj pasek przewijania, jeśli zawartość jest zbyt duża */
+}
+
+html, body {
+    height: 100%; /* Ustawienie wysokości na 100% dla całej strony */
+    margin: 0; /* Resetowanie domyślnych marginesów */
+    padding: 0; /* Resetowanie domyślnego paddingu */
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.innerContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Dodaj przezroczystość do tła */
+    padding: 5px 10px; /* Dodaj wypełnienie wokół logo */
+    border-radius: 5px; /* Zaokrąglij rogów logo */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Dodaj lekki cień */
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    /* Dodatkowe style dla przycisków akcji użytkownika */
+}
+
+.user-actions button {
+    margin-left: 10px;
+    /* Style dla przycisków */
+}
+
+/* Dodatkowe style dla przycisków akcji użytkownika */
+.logo img {
+    height: 200px; /* Ustaw wysokość logo */
+    width: 200px; /* Zachowaj proporcje obrazu */
+    margin-left: 0px;
+    /* Możesz dodać inne style, takie jak marginesy lub padding */
+}
+
+.container {
+    width: 90%; /* Szerokość kontenera, można dostosować */
+    max-width: 1200px; /* Maksymalna szerokość, można dostosować */
+    margin: 0 auto; /* Wyśrodkowanie */
+    background: linear-gradient(to bottom right, #0077b6, #00b4d8);
+    min-height: 100%;
+}
+
+.opisStronaGlowna li {
+    padding: 10px;
+}
+
+.opis-kadra {
+    font-weight: bold;
+}
+
+.imageMain {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    height: 50vh;
+}
